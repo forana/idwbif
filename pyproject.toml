@@ -1,0 +1,17 @@
+[project]
+name = "idwbif"
+version = "0.1.0"
+description = "Tools for making your python functions up to 1000x faster"
+readme = "README.md"
+authors = [
+    { name = "forana", email = "alex@alexforan.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+idwbif = "idwbif:main"
+
+[build-system]
+requires = ["uv_build>=0.9.21,<0.10.0"]
+build-backend = "uv_build"
