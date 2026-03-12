@@ -1,6 +1,6 @@
 [project]
 name = "idwbif"
-version = "0.1.0"
+version = "0.1.1"
 description = "Tools for making your python functions up to 1000x faster"
 readme = "README.md"
 authors = [
@@ -8,6 +8,10 @@ authors = [
 ]
 requires-python = ">=3.10"
 dependencies = []
+license = "WTFPL"
+
+[project.urls]
+Homepage = "https://github.com/forana/idwbif"
 
 [project.scripts]
 idwbif = "idwbif:main"
